@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eethuisje Zinna</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="nav-background">
+        </div>
+        <div class="site-content-wrapper">
+            <div class="nav-trigger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-bar-chart">
+                    <line x1="12" y1="20" x2="12" y2="10" />
+                    <line x1="18" y1="20" x2="18" y2="4" />
+                    <line x1="6" y1="20" x2="6" y2="16" /></svg>
+            </div>
+            <div class="site-content">
+                <header class="topbar">
+                    <div class="container flex justify-between items-center">
+                        <div class="icons">
+                            <a href="#"><img src="./icons/facebook.svg" alt=""></a>
+                            <a href="#"><img src="./icons/twitter.svg" alt=""></a>
+                            <a href="#"><img src="./icons/google.svg" alt=""></a>
+                            <a href="#"><img src="./icons/instagram.svg" alt=""></a>
+                            <a href="#"><img src="./icons/search.svg" alt=""></a>
+                        </div>
+                        <div class="auth flex items-center">
+                            
+                            <span class="divider">|</span>
+                            <div>
+                                <img src="./icons/cart.svg" alt="">
+                                <a href="#">0 Items - ($0.00)</a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <nav>
+                    <div class="top">
+                        <div class="container flex justify-between">
+                            <div class="contact flex items-center">
+                                <img src="./icons/phone.svg" alt="">
+                                <div>
+                                    <h5>bel ons: 030 242 04 04</h5>
+                                </div>
+                            </div>
+                            <div class="branding">
+                                <img style="width: auto; height: 56px" src="data:image/jpeg;base64,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" alt="">
+                            </div>
+                            <div class="time flex items-center">
+                                <img src="./icons/clock.svg" alt="">
+                                <div>
+                                    <h5>openingstijden:</h5>
+                                    <h6>din - zon (11:00 - 20:30)</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar magic-shadow">
+                        <div class="container flex justify-center">
+                            <a href="#" class="active">Home</a>
+                            <a href="#">About us</a>
+                            <a href="#">Products</a>
+                            <a href="#">Shop</a>
+                            <a href="#">Contact us</a>
+                        </div>
+                    </div>
+                </nav>
+
+                <header class="hero flex items-center">
+                    <div class="container">
+                        <div class="welcome flex items-center">
+                            <span>Welcome to Eethuisje Zinna</span>
+                        </div>
+                        <h1>De beste <span>surinaamse</span> eethuisje</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga aliquid blanditiis veniam, optio delectus numquam deleniti tenetur vitae quo inventore sequi? Aperiam repellendus rerum dolore temporibus quos libero itaque autem.</p>
+                        <div>
+                            <button class="btn btn-secondary">Bestel Nu</button>
+                        </div>
+                        <div class="hero-image">
+                            <img src="data:image/jpeg;base64,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" alt="">
+                        </div>
+                    </div>
+                </header>
+
+                <section class="top-products">
+                    <div class="container">
+                        <h1 class="section-heading">Best sellers</h1>
+                        <div class="slider">
+                            <button class="slider-btn prev-btn"><img src="./icons/pre.svg" alt=""></button>
+                            <button class="slider-btn next-btn"><img src="./icons/next.svg" alt=""></button>
+                            <div class="food-slider">
+                                <div class="food-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="https://cdn.sitedish.nl/bestellen.eethuisjezinna.nl/img/gerechten/65e7382b67fbf_3511108_Eethuisjezinna_Food_Rotikipfilet_4x3.png-c.webp" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h2 class="text-center">Roti kipfilet</h2>
+                                        <div class="stars flex justify-center items-center">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                        </div>
+                                        <div class="price text-center">
+                                            $ 13.00
+                                        </div>
+                                        <div class="flex justify-center">
+                                            <button>
+                                                <img src="./icons/cart-2.svg" alt="">
+                                                <span>Bestel Nu</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="food-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="https://cdn.sitedish.nl/bestellen.eethuisjezinna.nl/img/gerechten/65e738576017f_3511108_EethuisjeZinna_Food_RotirolKipfilet.png-c.webp" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h2 class="text-center">Rotirol</h2>
+                                        <div class="stars flex justify-center items-center">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                        </div>
+                                        <div class="price text-center">
+                                            $ 8.00
+                                        </div>
+                                        <div class="flex justify-center">
+                                            <button>
+                                                <img src="./icons/cart-2.svg" alt="">
+                                                <span>Bestel Nu</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="food-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="https://cdn.sitedish.nl/bestellen.eethuisjezinna.nl/img/gerechten/65e738576017f_3511108_EethuisjeZinna_Food_RotirolKipfilet.png-c.webp" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h2 class="text-center">Bami kipfilet ketjap</h2>
+                                        <div class="stars flex justify-center items-center">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                        </div>
+                                        <div class="price text-center">
+                                            $ 12.00
+                                        </div>
+                                        <div class="flex justify-center">
+                                            <button>
+                                                <img src="./icons/cart-2.svg" alt="">
+                                                <span>Bestel Nu</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="food-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="https://cdn.sitedish.nl/bestellen.eethuisjezinna.nl/img/gerechten/65e735c45b084_Nasi_ketjap_kipfilet.png-c.webp" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h2 class="text-center">Nasi kipfilet ketjap</h2>
+                                        <div class="stars flex justify-center items-center">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                        </div>
+                                        <div class="price text-center">
+                                            $ 12.00
+                                        </div>
+                                        <div class="flex justify-center">
+                                            <button>
+                                                <img src="./icons/cart-2.svg" alt="">
+                                                <span>Bestel Nu</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="food-card magic-shadow-sm">
+                                    <div class="product-image flex items-center justify-center">
+                                        <img src="https://cdn.sitedish.nl/bestellen.eethuisjezinna.nl/img/gerechten/65e751360f1d4_3511108_EethuisjeZinna_Food_SaotoSoep.png-c.webp" alt="">
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <h2 class="text-center">Saoto soep</h2>
+                                        <div class="stars flex justify-center items-center">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/start-filled.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                            <img src="./icons/star-grey.svg" alt="">
+                                        </div>
+                                        <div class="price text-center">
+                                            $ 7.50
+                                        </div>
+                                        <div class="flex justify-center">
+                                            <button>
+                                                <img src="./icons/cart-2.svg" alt="">
+                                                <span>Bestel Nu</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center btn-wrapper">
+                            <button class="btn btn-secondary">Zie meer</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="big-deal">
+                    <div class="container">
+                        <h1 class="section-heading text-pure">Deals van de week</h1>
+                        <div class="timer">
+                            <div>
+                                <span>02</span>
+                                <span>Dagen</span>
+                            </div>
+                            <div>
+                                <span>24</span>
+                                <span>Uren</span>
+                            </div>
+                            <div>
+                                <span>55</span>
+                                <span>Minuten</span>
+                            </div>
+                            <div>
+                                <span>58</span>
+                                <span>Seconden</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contact-us flex">
+                    <div class="contact-info-wrapper">
+                        <h1 class="section-heading">Contact us</h1>
+                        <div class="contact-info">
+                            <div>
+                                <div>
+                                    <img src="./icons/phone-2.svg" alt="">
+                                    <div>
+                                        <span>Bell ons:</span>
+                                        <span>(030) 242 04 04</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <img src="./icons/clock-2.svg" alt="">
+                                    <div>
+                                        <span>Openingstijden:</span>
+                                        <span>Din - Zon (11:00 - 23:30)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.538039081134!2d5.1185870767118224!3d52.06993477194666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c665e5faae5019%3A0x14eca7e8a2a31354!2sEethuisje%20Zinna!5e0!3m2!1snl!2snl!4v1713667254113!5m2!1snl!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                    </div>
+                </section>
+
+                <footer class="copyright">
+                    <div>
+                        Copyright © 2018 .All rights reserved by <a href="#">Eethuisje Zinna</a>.
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
